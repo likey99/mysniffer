@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 1993, 1994, 1995, 1996, 1997
+ * Copyright (c) 1994, 1996
  *	The Regents of the University of California.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -34,10 +34,7 @@
 /*
  * For backwards compatibility.
  *
- * Note to OS vendors: do NOT get rid of this file!  Many applications
- * expect to be able to include <pcap.h>, and at least some of them
- * go through contortions in their configure scripts to try to detect
- * OSes that have "helpfully" moved pcap.h to <pcap/pcap.h> without
- * leaving behind a <pcap.h> file.
+ * Note to OS vendors: do NOT get rid of this file!  Some applications
+ * might expect to be able to include <pcap-namedb.h>.
  */
-#include "pcap/pcap.h"
+#include <pcap/namedb.h>
